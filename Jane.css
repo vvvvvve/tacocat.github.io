@@ -1,0 +1,11 @@
+#open {
+    width: 500px;
+}
+
+#close {
+    width: 500px;
+}
+
+.hidden {
+    visibility: hidden;
+}
