@@ -10,23 +10,31 @@ window.onload = () => {
     b = document.querySelector("#butt");
     c = document.querySelector("#close");
     o = document.querySelector("#open");
-    
+
     b.onmousedown = () => {
         Assia();
-    }
+    };
 
     b.onmouseup = () => {
         June();
-    }
+    };
 
     b.onkeypress = () => {
         Assia();
-    }
+    };
 
     b.onkeyup = () => {
         June();
-    }
-}
+    };
+
+    b.ontouchstart = () => {
+        Assia();
+    };
+
+    b.ontouchend = () => {
+        June();
+    };
+};
 
 function Assia() {
     audio.cloneNode(true).play();
